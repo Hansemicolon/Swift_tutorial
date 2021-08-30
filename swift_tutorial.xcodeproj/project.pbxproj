@@ -13,7 +13,9 @@
 		9500C74A26DA646A0059190F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9500C74826DA646A0059190F /* Main.storyboard */; };
 		9500C74C26DA646B0059190F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9500C74B26DA646B0059190F /* Assets.xcassets */; };
 		9500C74F26DA646B0059190F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9500C74D26DA646B0059190F /* LaunchScreen.storyboard */; };
-		95EE0F3726DA814700F7B30F /* 54096-patrick-plotting.json in Resources */ = {isa = PBXBuildFile; fileRef = 95EE0F3626DA814700F7B30F /* 54096-patrick-plotting.json */; };
+		959FDECC26DCFEA600118563 /* 71185-ui-ux.json in Resources */ = {isa = PBXBuildFile; fileRef = 959FDECB26DCFEA600118563 /* 71185-ui-ux.json */; };
+		959FDECE26DD010D00118563 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FDECD26DD010D00118563 /* LoginViewController.swift */; };
+		959FDED426DD0E4400118563 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FDED326DD0E4400118563 /* RegisterViewController.swift */; };
 		C90C91BC4EB24793C1355598 /* Pods_swift_tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1158EAFF78D4518EB78D2D9D /* Pods_swift_tutorial.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +30,9 @@
 		9500C74B26DA646B0059190F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9500C74E26DA646B0059190F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9500C75026DA646B0059190F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95EE0F3626DA814700F7B30F /* 54096-patrick-plotting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "54096-patrick-plotting.json"; sourceTree = "<group>"; };
+		959FDECB26DCFEA600118563 /* 71185-ui-ux.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "71185-ui-ux.json"; path = "../../../Downloads/71185-ui-ux.json"; sourceTree = "<group>"; };
+		959FDECD26DD010D00118563 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		959FDED326DD0E4400118563 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		B8F0C808CCE725FCDA5080E6 /* Pods-swift_tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_tutorial.debug.xcconfig"; path = "Target Support Files/Pods-swift_tutorial/Pods-swift_tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +78,7 @@
 		9500C74126DA646A0059190F /* swift_tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				95EE0F3626DA814700F7B30F /* 54096-patrick-plotting.json */,
+				959FDECB26DCFEA600118563 /* 71185-ui-ux.json */,
 				9500C75626DA68550059190F /* ViewControllers */,
 				9500C74226DA646A0059190F /* AppDelegate.swift */,
 				9500C74426DA646A0059190F /* SceneDelegate.swift */,
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				9500C74626DA646A0059190F /* MainViewController.swift */,
+				959FDECD26DD010D00118563 /* LoginViewController.swift */,
+				959FDED326DD0E4400118563 /* RegisterViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -161,10 +167,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EE0F3726DA814700F7B30F /* 54096-patrick-plotting.json in Resources */,
 				9500C74F26DA646B0059190F /* LaunchScreen.storyboard in Resources */,
 				9500C74C26DA646B0059190F /* Assets.xcassets in Resources */,
 				9500C74A26DA646A0059190F /* Main.storyboard in Resources */,
+				959FDECC26DCFEA600118563 /* 71185-ui-ux.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +223,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959FDECE26DD010D00118563 /* LoginViewController.swift in Sources */,
+				959FDED426DD0E4400118563 /* RegisterViewController.swift in Sources */,
 				9500C74726DA646A0059190F /* MainViewController.swift in Sources */,
 				9500C74326DA646A0059190F /* AppDelegate.swift in Sources */,
 				9500C74526DA646A0059190F /* SceneDelegate.swift in Sources */,
