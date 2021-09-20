@@ -24,7 +24,7 @@ class MainViewController: UIViewController {
         let animView = AnimationView(name: "71185-ui-ux") // 인스턴스를 해준다 == 메모리에 올라 간다
         //aniView 설정 시작
         animView.frame = CGRect(x:0,y:0,width: 400,height: 499) // 크기를 정해 줌 사각형을 만듦
-        animView.contentMode = .scaleAspectFill // fit은 맞추는거 fill은 채우는거 즉, 크기게 맞도록 이미지 확대
+        animView.contentMode = .scaleAspectFit // fit은 맞추는거 fill은 채우는거 즉, 크기게 맞도록 이미지 확대
         //선언하면서 정의가 되는 것이라 바로 return을 해줘야 함
         return animView
     }()
